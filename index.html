@@ -18,13 +18,19 @@
        
     <br>
     <ul>
-        <li>Lista no organizada</li>
+        <li>Lista no organizada 1</li>
         <li>Lista no organizada 2</li>   
     </ul>
 
     <ol>
-        <li>Lista Organizada</li>
-        <li>Lista Organizada 2</li>        
+        <li>Lista Organizada 1</li>
+        <li>Lista Organizada 2</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">SubLista 1</li>
+                <li style="list-style-type: lower-alpha;">SubLista 2</li>
+            </ol>
+        </li>        
     </ol>
     <!-- Para el formulario se pueden usar los metodos GET o POST para enviar datos-->
     <form action="/formulario" method="GET">
@@ -37,7 +43,6 @@
         <br>
         <textarea name="comentarios" id="comentarios" cols="30" rows="5"> </textarea>
         <br>
-        <!-- Otra forma para el envió podria ser: <input type="submit" /> -->
         <button type="submit">Enviar</button>
         <button type="reset">Limpiar</button>
     </form>
