@@ -9,3 +9,7 @@ table,th,td{
 #titulo {
  color: crimson; 
 }
+
+.post{
+  background-color: coral;
+}
