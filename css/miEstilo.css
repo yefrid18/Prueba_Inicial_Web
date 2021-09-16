@@ -1,7 +1,11 @@
 body{
-  background-color:rgb(25, 163, 218);
+  background-color:rgb(124, 214, 236);
   }
 
 table,th,td{
   border: 1px solid black
   }
+
+#titulo {
+ color: crimson; 
+}
