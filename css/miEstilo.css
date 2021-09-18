@@ -17,3 +17,7 @@ table,th,td{
 #cuerpoblog{
   background-color: rgb(138, 183, 185);
 }
+
+h1{
+  text-align: center;
+}
