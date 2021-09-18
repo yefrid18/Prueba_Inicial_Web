@@ -50,19 +50,28 @@
         </li>        
     </ol>
     <!-- Para el formulario se pueden usar los metodos GET o POST para enviar datos-->
-    <form action="/formulario" method="GET">
-        <label for="nombres">Nombres</label>
-        <input id="nombres" type="text" name="nombres" placeholder="Escribe tu nombre completo aqui">
-        <label for="email">Email</label>
-        <input id="email" type="email" name="email" placeholder="Escribe tu e-mail aqui">
-        <br>
-        <label for="comentarios">Comentarios</label>
-        <br>
-        <textarea name="comentarios" id="comentarios" cols="30" rows="5"> </textarea>
-        <br>
-        <button type="submit">Enviar</button>
-        <button type="reset">Limpiar</button>
-    </form>
+    <div>
+        <h1>Formulario de Envío</h1>
+        <form action="/formulario" method="GET">
+            <label for="nombres">Nombres</label>
+            <input id="nombres" type="text" name="nombres" placeholder="Escribe tu nombre completo aqui">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="Escribe tu e-mail aqui">
+            <label for="sexo">Sexo</label>
+            <input type="radio" name="sexo" value="hombre">Hombre 
+            <input type="radio" name="sexo" value="mujer">Mujer
+            <br>
+            <label for="fechanac">Fecha Nac</label>
+            <input id="fechanac" type="date" name="fechanac">
+            <br>            
+            <label for="comentarios">Comentarios</label>
+            <br>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="4"> </textarea>
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </form>
+    </div>
     
     <br>
     <br>

@@ -7,8 +7,22 @@ table,th,td{
   }
 
 #titulo {
- color: crimson; 
+  color: rgba(209, 47, 47, 0.788);
+  background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);    
+  background-clip: text;
+  animation: color 3s linear infinite;
+  background-size: 500%; 
 }
+
+@keyframes color {
+  from {
+      background-position: 0% 50%;
+  }
+
+  to {
+      background-position: 100% 50%;
+  }
+} 
 
 .post{
   background-color: coral;
@@ -21,4 +35,11 @@ table,th,td{
 h1{
   text-align: center;
   color:cornflowerblue
+}
+
+div{
+  border: 1px;
+  background-color: rgb(150, 202, 218);
+  width: 200;
+  height: 150;
 }
