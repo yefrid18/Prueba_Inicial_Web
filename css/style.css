@@ -34,7 +34,13 @@ table,th,td{
 
 h1{
   text-align: center;
-  color:cornflowerblue
+  color:rgb(90, 143, 240);
+  background-color:rgb(247, 146, 109);
+  opacity: unset;
+}
+
+h2{
+  color: rgb(10, 81, 187)
 }
 
 div{
@@ -42,4 +48,5 @@ div{
   background-color: rgb(150, 202, 218);
   width: 200;
   height: 150;
+  border-radius: 5px;  
 }
