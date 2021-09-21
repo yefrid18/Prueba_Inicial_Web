@@ -13,6 +13,7 @@ table,th,td{
   animation: color 3s linear infinite;
   background-size: 500%; 
   border-radius: 30px;
+  border-style: solid 0.5 px;
 }
 
 @keyframes color {
@@ -25,13 +26,18 @@ table,th,td{
   }
 } 
 
-.post{
-  background-color: coral;
-}
 
 #cuerpoblog{
   background-image: url("/img/fondo-responsive.jpg");
   background-size: auto;   
+}
+
+.post{
+  background-color: coral;
+  border-radius: 6px;  
+  margin: 12px;
+  padding: 3px;
+  border: rgb(109, 22, 190) solid 0.2px;
 }
 
 h1{
