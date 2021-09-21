@@ -7,11 +7,12 @@ table,th,td{
   }
 
 #titulo {
-  color: rgba(209, 47, 47, 0.788);
+  color: rgba(52, 41, 114, 0.788);
   background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);    
   background-clip: text;
   animation: color 3s linear infinite;
   background-size: 500%; 
+  border-radius: 30px;
 }
 
 @keyframes color {
@@ -29,7 +30,8 @@ table,th,td{
 }
 
 #cuerpoblog{
-  background-color: rgb(138, 183, 185);
+  background-image: url("/img/fondo-responsive.jpg");
+  background-size: auto;   
 }
 
 h1{
@@ -48,5 +50,5 @@ div{
   background-color: rgb(150, 202, 218);
   width: 200;
   height: 150;
-  border-radius: 5px;  
+  border-radius: 15px;  
 }
