@@ -61,3 +61,19 @@ div{
   height: 150;
   border-radius: 15px;  
 }
+
+a:link{
+  color:blueviolet
+}
+
+a:visited{
+  color:gray
+}
+
+a:hover{
+  color:greenyellow
+}
+
+a:active{
+  color:red
+}
